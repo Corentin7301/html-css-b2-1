@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+// ================    RESET  ==========================
+@import "global/colors";
+@import "global/shadow";
+
+@import "components/button";
+@import "components/card";
+@import "components/header";
+@import "components/signup";
+@import "components/news";
+
+
+// ====== RESET ===== 
+body {
+  margin: 0;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h3,
+  h1,
+  p,
+  header {
+    margin: 0
+  }
+}

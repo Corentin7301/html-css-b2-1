@@ -1,0 +1,108 @@
+// MOBILE
+
+body {
+    background-color: black;
+
+
+    img {
+        width: 100%;
+    }
+
+    .formulaire {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: 'Montserrat', sans-serif;
+            align-items: center;
+
+            label {
+                color: #13a07f;
+                font-size: 2em;
+                margin-top: 5%;
+            }
+
+            #label-pseudo {
+                margin-top: 70px;
+            }
+
+            input {
+                font-size: 1.1em;
+                color: #13a07f;
+                margin: 10px 0 10px 10px;
+                padding: 5px;
+                width: 70%;
+                background: #13a07f52;
+                border: none;
+                height: 1.5em;
+                vertical-align: middle;
+                transition: all 0.8s;
+                font-family: 'Montserrat', sans-serif;
+
+                &:hover,
+                &:focus {
+                    background: #13a07f62;
+                }
+
+                &::placeholder {
+                    color: #13a07f;
+                }
+            }
+
+            button {
+                margin-top: 10px;
+                background-color: #13a07f52;
+                color: #13a07fa6;
+                box-shadow: none;
+                width: 50%;
+                padding: 5px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+
+                &:hover,
+                &:focus {
+                    outline: none;
+                    background: #13a07f62;
+                    color: #13a07fea;
+                }
+            }
+        }
+
+
+    }
+}
+
+// DESKTOP
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+    body {
+        display: flex;
+        flex-direction: row-reverse;
+
+        img {
+            width: 50%;
+            height: 100%;
+        }
+
+        .formulaire {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+
+
+            form {
+
+
+                #label-pseudo {
+                    margin-top: 5%
+                }
+            }
+        }
+
+    }
+
+
+
+}

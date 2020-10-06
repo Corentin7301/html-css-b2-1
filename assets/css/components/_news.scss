@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+#newsletter {
+    height: 100px;
+    background-color: #13a07f1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    input {
+        font-size: 1.1em;
+        color: #13a07f;
+        margin: 10px 0 10px 10px;
+        padding: 5px;
+        width: 49%;
+        background: #13a07f52;
+        border: none;
+        height: 30px;
+        vertical-align: middle;
+        transition: all 0.8s;
+        font-family: 'Montserrat', sans-serif;
+
+        &:hover,
+        &:focus {
+            background: #13a07f62;
+        }
+
+        &::placeholder {
+            color: #13a07f;
+        }
+    }
+
+    button {
+        width: 49%;
+        background-color: #13a07f1e;
+        color: #13a07fa6;
+        box-shadow: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            outline: none;
+            background: #13a07f62;
+            color: #13a07fea;
+        }
+    }
+
+
+}
